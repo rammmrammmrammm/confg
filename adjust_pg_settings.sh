@@ -25,7 +25,7 @@
            update_config "max_connections" "10000"
        elif [ "$current_connections" -lt 100000 ]; then
            update_config "max_connections" "100000"
-       elif [ "$current_connections" -lt 1000000"; then
+       elif [ "$current_connections" -lt 1000000]; then
            update_config "max_connections" "1000000"
        else
            update_config "max_connections" "10000000"
